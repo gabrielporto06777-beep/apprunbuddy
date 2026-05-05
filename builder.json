@@ -1,0 +1,16 @@
+{
+  "project": "Run Buddy",
+  "platform": "ios",
+  "github": {
+    "owner": "gabrielporto06777-beep",
+    "repo": "apprunbuddy"
+  },
+  "ios": {
+    "path": "ios"
+  },
+  "flutter": {
+    "watch": {}
+  },
+  "reactNative": {},
+  "mobai": {}
+}
