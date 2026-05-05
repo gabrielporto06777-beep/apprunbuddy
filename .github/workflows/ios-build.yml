@@ -75,7 +75,7 @@ jobs:
         if: steps.detect.outputs.type == 'reactnative' || steps.detect.outputs.type == 'expo' || steps.detect.outputs.type == 'capacitor'
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version: "22"
 
       - name: Restore node_modules cache
         if: steps.detect.outputs.type == 'reactnative' || steps.detect.outputs.type == 'expo' || steps.detect.outputs.type == 'capacitor'
