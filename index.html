@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" class="theme-dark dark">
+  <head>
+    <script>
+      (function(){
+        var t=localStorage.getItem('runbuddy_theme');
+        var d=document.documentElement;
+        d.classList.remove('theme-dark','theme-light','dark');
+        if(t==='light'){d.classList.add('theme-light')}
+        else{d.classList.add('theme-dark','dark')}
+      })();
+    </script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="theme-color" content="#F97316" />
+    <title>Run Buddy</title>
+    <meta name="description" content="Run Buddy - Seu parceiro de corrida. Rastreie corridas, siga planos de treino e melhore seu desempenho.">
+    <link rel="manifest" href="/manifest.json" />
+    <link rel="apple-touch-icon" href="/icon-192.png" />
+    <meta property="og:title" content="Run Buddy">
+  <meta name="twitter:title" content="Run Buddy">
+  <meta property="og:description" content="Run Buddy - Seu parceiro de corrida. Rastreie corridas, siga planos de treino e melhore seu desempenho.">
+  <meta name="twitter:description" content="Run Buddy - Seu parceiro de corrida. Rastreie corridas, siga planos de treino e melhore seu desempenho.">
+  <link rel="icon" type="image/png" href="/icon-192.png">
+  <meta property="og:image" content="https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/1bbb2cae-50bf-40e5-97b2-fd797501f22c/id-preview-ec785878--2622191d-6577-430d-9a1e-825b00028a7e.lovable.app-1774153932327.png">
+  <meta name="twitter:image" content="https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/1bbb2cae-50bf-40e5-97b2-fd797501f22c/id-preview-ec785878--2622191d-6577-430d-9a1e-825b00028a7e.lovable.app-1774153932327.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta property="og:type" content="website">
+</head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
