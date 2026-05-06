@@ -6,7 +6,7 @@
     "repo": "apprunbuddy"
   },
   "ios": {
-    "path": "ios"
+    "path": "ios/App"
   },
   "flutter": {
     "watch": {}
